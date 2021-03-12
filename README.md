@@ -5,6 +5,9 @@ A small script to decode Base64 cells in a CSV and output them as files.
 - Python3
 - openpyxl library (`pip3 install openpyxl`)
 
+## Sample usage
+`python3 script.py -f test1.csv -o output -u -e txt`
+
 ## Notes
 There is no definitive way to know if a string is Base64 encoded or just *might* be so it takes it's best guess. Some output files might be garbage.
 
