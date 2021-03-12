@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Input files
+*.csv
+*.CSV
+
+# Typical output dirs
+output/
+outdir/
+out/
+data/
